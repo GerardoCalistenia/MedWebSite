@@ -1,10 +1,5 @@
 @charset "UTF-8";
-/*!
-Animate.css - http://daneden.me/animate
-Licensed under the MIT license - http://opensource.org/licenses/MIT
 
-Copyright (c) 2014 Daniel Eden
-*/
 .custom-icon {
   color: #000000;
   animation: beat 2s linear infinite;
