@@ -440,7 +440,7 @@ header span i {
   background-color: rgba(20,20,20,0.2);
   height: 100%;
   color: #fff;
-  cursor: e-resize;
+  cursor: default;
 }
 
 .slider .item {
@@ -455,22 +455,13 @@ header span i {
   background-image: url(../images/slider1.jpg);
 }
 
-.slider .item-second {
-  background-image: url(../images/slider2.jpg);
-}
-
-.slider .item-third {
-  background-image: url(../images/slider3.jpg);
-}
-
-
 /*---------------------------------------
     ABOUT              
 -----------------------------------------*/
 
 #about {
   background: url('../images/doctor3.JPG') no-repeat top center;
-  background-size: cover;
+  background-size: contain;
   padding-top: 150px;
   padding-bottom: 150px;
 }
@@ -506,7 +497,7 @@ header span i {
   border-radius: 0 0 10px 10px;
   position: relative;
   overflow: hidden;
-  cursor: pointer;
+  cursor: default;
 }
 
 .team-info {
